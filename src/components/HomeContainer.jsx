@@ -84,7 +84,7 @@ const HomeContainer = () => {
                 </p>
 
                 <p className="text-sm font-semibold text-headingColor">
-                  <span className="text-xs text-red-600">$</span> {n.price}
+                  <span className="text-xs text-red-600">₹</span> {n.price}
                 </p>
               </div>
             ))}
