@@ -5,6 +5,7 @@ import NotFound from "../img/NotFound.svg";
 import { useStateValue } from "../Context/StateProvider";
 import { actionType } from "../Context/reducer";
 
+/*eslint-disable */
 const RowContainer = ({ flag, data, scrollValue }) => {
   const rowContainer = useRef();
 

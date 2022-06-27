@@ -6,6 +6,7 @@ import { useStateValue } from "./Context/StateProvider";
 import { getAllFoodItems } from "./utils/firebaseFunctions";
 import { actionType } from "./Context/reducer";
 
+/*eslint-disable */
 const App = () => {
   const [{ foodItems }, dispatch] = useStateValue();
 

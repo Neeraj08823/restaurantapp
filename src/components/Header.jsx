@@ -10,6 +10,7 @@ import { app } from "../firebase.config";
 import { useStateValue } from "../Context/StateProvider";
 import { actionType } from "../Context/reducer";
 
+/*eslint-disable */
 const Header = () => {
   const firebaseAuth = getAuth(app);
   const provider = new GoogleAuthProvider();

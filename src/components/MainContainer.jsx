@@ -8,6 +8,7 @@ import MenuContainer from "./MenuContainer";
 import CartContainer from "./CartConatiner";
 import FooterContainer from "./FooterContainer";
 
+/*eslint-disable */
 const MainContainer = () => {
   const [{ foodItems, cartShow }, dispatch] = useStateValue();
   const [scrollValue, setScrollValue] = useState(0);

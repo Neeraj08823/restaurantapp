@@ -21,6 +21,7 @@ import { getAllFoodItems, saveItem } from "../utils/firebaseFunctions";
 import { actionType } from "../Context/reducer";
 import { useStateValue } from "../Context/StateProvider";
 
+/*eslint-disable */
 const CreateContainer = () => {
   const [title, setTitle] = useState("");
   const [calories, setCalories] = useState("");

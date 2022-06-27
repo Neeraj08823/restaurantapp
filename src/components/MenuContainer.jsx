@@ -5,9 +5,9 @@ import { motion } from "framer-motion";
 import RowContainer from "./RowContainer";
 import { useStateValue } from "../Context/StateProvider";
 
+/*eslint-disable */
 const MenuContainer = () => {
   const [filter, setFilter] = useState("chicken");
-
   const [{ foodItems }, dispatch] = useStateValue();
 
   return (
@@ -63,7 +63,7 @@ const MenuContainer = () => {
         <div className="w-full">
           <RowContainer
             flag={false}
-            data={foodItems?.filter((n) => n.category == filter)}
+            data={foodItems?.filter((n) => n.category === filter)}
           />
         </div>
       </div>
