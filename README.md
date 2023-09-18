@@ -26,7 +26,7 @@
 
 <p>Experience the future of dining with the Restaurant Website for Ordering Foods and Fresh Fruits. Explore a diverse menu, place orders with ease, and savor the convenience of digital dining at its finest. Join us on a culinary journey that starts with a single click.</p>
 
-<h4>Bon appétit!</h4>
+<h3>Bon appétit!</h3>
 
 <img width="946" alt="Fresh Food" src="./src/img/Fresh Food.PNG">
 <img width="946" alt="Fresh Food" src="./src/img/FreshFood !.PNG">
